@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow-text {
+    @apply group-hover:text-blue-600 transition-colors duration-300
+}
